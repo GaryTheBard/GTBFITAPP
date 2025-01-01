@@ -24,6 +24,10 @@
 		1E0739FC2D24ED27003293D6 /* ExerciseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739FB2D24ED27003293D6 /* ExerciseTableView.swift */; };
 		1E0739FE2D24EF9A003293D6 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739FD2D24EF9A003293D6 /* JournalView.swift */; };
 		1E073A002D24F29A003293D6 /* logo in Resources */ = {isa = PBXBuildFile; fileRef = 1E0739FF2D24F29A003293D6 /* logo */; };
+		1E073A042D256EAB003293D6 /* ExportDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E073A032D256EAB003293D6 /* ExportDataView.swift */; };
+		1E073A062D257359003293D6 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E073A052D257359003293D6 /* AnalyticsView.swift */; };
+		1E073A082D25736E003293D6 /* FoodChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E073A072D25736E003293D6 /* FoodChartsView.swift */; };
+		1E073A0A2D257382003293D6 /* ExerciseChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E073A092D257382003293D6 /* ExerciseChartsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,10 @@
 		1E0739FB2D24ED27003293D6 /* ExerciseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableView.swift; sourceTree = "<group>"; };
 		1E0739FD2D24EF9A003293D6 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
 		1E0739FF2D24F29A003293D6 /* logo */ = {isa = PBXFileReference; lastKnownFileType = file; path = logo; sourceTree = "<group>"; };
+		1E073A032D256EAB003293D6 /* ExportDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportDataView.swift; sourceTree = "<group>"; };
+		1E073A052D257359003293D6 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		1E073A072D25736E003293D6 /* FoodChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodChartsView.swift; sourceTree = "<group>"; };
+		1E073A092D257382003293D6 /* ExerciseChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseChartsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +136,10 @@
 				1E0739F92D24D162003293D6 /* FoodLookupEntry.swift */,
 				1E0739FB2D24ED27003293D6 /* ExerciseTableView.swift */,
 				1E0739FD2D24EF9A003293D6 /* JournalView.swift */,
+				1E073A032D256EAB003293D6 /* ExportDataView.swift */,
+				1E073A052D257359003293D6 /* AnalyticsView.swift */,
+				1E073A072D25736E003293D6 /* FoodChartsView.swift */,
+				1E073A092D257382003293D6 /* ExerciseChartsView.swift */,
 			);
 			path = GTBFITAPP;
 			sourceTree = "<group>";
@@ -291,13 +303,17 @@
 				1E0739FE2D24EF9A003293D6 /* JournalView.swift in Sources */,
 				1E0739CC2D244CB1003293D6 /* Persistence.swift in Sources */,
 				1E0739C52D244CB0003293D6 /* ContentView.swift in Sources */,
+				1E073A0A2D257382003293D6 /* ExerciseChartsView.swift in Sources */,
 				1E0739C32D244CB0003293D6 /* GTBFITAPPApp.swift in Sources */,
 				1E0739FA2D24D162003293D6 /* FoodLookupEntry.swift in Sources */,
+				1E073A082D25736E003293D6 /* FoodChartsView.swift in Sources */,
 				1E0739F22D244ED0003293D6 /* MainView.swift in Sources */,
 				1E0739CF2D244CB1003293D6 /* GTBFITAPP.xcdatamodeld in Sources */,
 				1E0739F82D2470C0003293D6 /* LogExerciseView.swift in Sources */,
 				1E0739F42D2451D0003293D6 /* LogFoodView.swift in Sources */,
 				1E0739F62D245C22003293D6 /* FoodLookupView.swift in Sources */,
+				1E073A042D256EAB003293D6 /* ExportDataView.swift in Sources */,
+				1E073A062D257359003293D6 /* AnalyticsView.swift in Sources */,
 				1E0739FC2D24ED27003293D6 /* ExerciseTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

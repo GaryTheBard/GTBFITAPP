@@ -107,7 +107,7 @@ struct MainView: View {
                             .shadow(color: Color.gray, radius: 5, x: 0, y: 5)
                         }
                         
-                        // Added Navigation link to ExerciseTableView
+                        // Navigation link to ExerciseTableView
                         NavigationLink(destination: ExerciseTableView().environment(\.managedObjectContext, managedObjectContext)) {
                             HStack {
                                 Image(systemName: "list.bullet")
@@ -121,6 +121,42 @@ struct MainView: View {
                             .padding()
                             .frame(width: UIScreen.main.bounds.width / 2)
                             .background(Color.teal)
+                            .cornerRadius(10)
+                            .shadow(color: Color.gray, radius: 5, x: 0, y: 5)
+                        }
+                        
+                        // Navigation link to ExportDataView
+                        NavigationLink(destination: ExportDataView().environment(\.managedObjectContext, managedObjectContext)) {
+                            HStack {
+                                Image(systemName: "square.and.arrow.up")
+                                    .font(.title)
+                                    .foregroundColor(.white)
+                                Text("Export Data")
+                                    .font(.title2)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.white)
+                            }
+                            .padding()
+                            .frame(width: UIScreen.main.bounds.width / 2)
+                            .background(Color.purple)
+                            .cornerRadius(10)
+                            .shadow(color: Color.gray, radius: 5, x: 0, y: 5)
+                        }
+
+                        // Navigation link to AnalyticsView
+                        NavigationLink(destination: AnalyticsView().environment(\.managedObjectContext, managedObjectContext)) {
+                            HStack {
+                                Image(systemName: "chart.bar.xaxis")
+                                    .font(.title)
+                                    .foregroundColor(.white)
+                                Text("Analytics")
+                                    .font(.title2)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.white)
+                            }
+                            .padding()
+                            .frame(width: UIScreen.main.bounds.width / 2)
+                            .background(Color.orange)
                             .cornerRadius(10)
                             .shadow(color: Color.gray, radius: 5, x: 0, y: 5)
                         }

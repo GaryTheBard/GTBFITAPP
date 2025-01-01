@@ -23,31 +23,32 @@ struct ExerciseTableView: View {
 
     var body: some View {
         VStack {
-            Form {
-                Section(header: Text("Add New Exercise Item")) {
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text("Muscle Group:")
-                            TextField("Enter muscle group", text: $newMuscleGroup)
-                                .textFieldStyle(RoundedBorderTextFieldStyle())
-                        }
-                        VStack(alignment: .leading) {
-                            Text("Exercise Name:")
-                            TextField("Enter exercise name", text: $newExerciseName)
-                                .textFieldStyle(RoundedBorderTextFieldStyle())
-                        }
-                    }
-                    Button(action: addExerciseItem) {
-                        Text("Add Item")
-                            .frame(maxWidth: .infinity)
-                            .padding()
-                            .background(Color.blue)
-                            .foregroundColor(.white)
-                            .cornerRadius(10)
-                    }
+            HStack(spacing: 10) {
+                VStack(alignment: .leading, spacing: 5) {
+                    Text("Muscle Group:")
+                    TextField("Enter muscle group", text: $newMuscleGroup)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .frame(maxWidth: 150)
+                }
+                VStack(alignment: .leading, spacing: 5) {
+                    Text("Exercise Name:")
+                    TextField("Enter exercise name", text: $newExerciseName)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .frame(maxWidth: 150)
+                }
+                Button(action: addExerciseItem) {
+                    Text("Add Item")
+                        .frame(maxWidth: 100)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
                 }
             }
             .padding()
+            .background(Color(UIColor.secondarySystemBackground))
+            .cornerRadius(10)
+            .padding(.horizontal)
 
             ExerciseTableViewContent(exerciseItems: exerciseItems, deleteAction: deleteExerciseItems)
         }
