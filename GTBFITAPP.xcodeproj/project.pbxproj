@@ -16,6 +16,14 @@
 		1E0739D92D244CB1003293D6 /* GTBFITAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739D82D244CB1003293D6 /* GTBFITAPPTests.swift */; };
 		1E0739E32D244CB1003293D6 /* GTBFITAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739E22D244CB1003293D6 /* GTBFITAPPUITests.swift */; };
 		1E0739E52D244CB1003293D6 /* GTBFITAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739E42D244CB1003293D6 /* GTBFITAPPUITestsLaunchTests.swift */; };
+		1E0739F22D244ED0003293D6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739F12D244ED0003293D6 /* MainView.swift */; };
+		1E0739F42D2451D0003293D6 /* LogFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739F32D2451D0003293D6 /* LogFoodView.swift */; };
+		1E0739F62D245C22003293D6 /* FoodLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739F52D245C22003293D6 /* FoodLookupView.swift */; };
+		1E0739F82D2470C0003293D6 /* LogExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739F72D2470C0003293D6 /* LogExerciseView.swift */; };
+		1E0739FA2D24D162003293D6 /* FoodLookupEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739F92D24D162003293D6 /* FoodLookupEntry.swift */; };
+		1E0739FC2D24ED27003293D6 /* ExerciseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739FB2D24ED27003293D6 /* ExerciseTableView.swift */; };
+		1E0739FE2D24EF9A003293D6 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0739FD2D24EF9A003293D6 /* JournalView.swift */; };
+		1E073A002D24F29A003293D6 /* logo in Resources */ = {isa = PBXBuildFile; fileRef = 1E0739FF2D24F29A003293D6 /* logo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,14 @@
 		1E0739DE2D244CB1003293D6 /* GTBFITAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTBFITAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0739E22D244CB1003293D6 /* GTBFITAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTBFITAPPUITests.swift; sourceTree = "<group>"; };
 		1E0739E42D244CB1003293D6 /* GTBFITAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTBFITAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E0739F12D244ED0003293D6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1E0739F32D2451D0003293D6 /* LogFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFoodView.swift; sourceTree = "<group>"; };
+		1E0739F52D245C22003293D6 /* FoodLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLookupView.swift; sourceTree = "<group>"; };
+		1E0739F72D2470C0003293D6 /* LogExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogExerciseView.swift; sourceTree = "<group>"; };
+		1E0739F92D24D162003293D6 /* FoodLookupEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLookupEntry.swift; sourceTree = "<group>"; };
+		1E0739FB2D24ED27003293D6 /* ExerciseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableView.swift; sourceTree = "<group>"; };
+		1E0739FD2D24EF9A003293D6 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		1E0739FF2D24F29A003293D6 /* logo */ = {isa = PBXFileReference; lastKnownFileType = file; path = logo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +117,17 @@
 				1E0739C22D244CB0003293D6 /* GTBFITAPPApp.swift */,
 				1E0739C42D244CB0003293D6 /* ContentView.swift */,
 				1E0739C62D244CB1003293D6 /* Assets.xcassets */,
+				1E0739FF2D24F29A003293D6 /* logo */,
 				1E0739CB2D244CB1003293D6 /* Persistence.swift */,
 				1E0739CD2D244CB1003293D6 /* GTBFITAPP.xcdatamodeld */,
 				1E0739C82D244CB1003293D6 /* Preview Content */,
+				1E0739F12D244ED0003293D6 /* MainView.swift */,
+				1E0739F32D2451D0003293D6 /* LogFoodView.swift */,
+				1E0739F52D245C22003293D6 /* FoodLookupView.swift */,
+				1E0739F72D2470C0003293D6 /* LogExerciseView.swift */,
+				1E0739F92D24D162003293D6 /* FoodLookupEntry.swift */,
+				1E0739FB2D24ED27003293D6 /* ExerciseTableView.swift */,
+				1E0739FD2D24EF9A003293D6 /* JournalView.swift */,
 			);
 			path = GTBFITAPP;
 			sourceTree = "<group>";
@@ -238,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E0739CA2D244CB1003293D6 /* Preview Assets.xcassets in Resources */,
+				1E073A002D24F29A003293D6 /* logo in Resources */,
 				1E0739C72D244CB1003293D6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +288,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0739FE2D24EF9A003293D6 /* JournalView.swift in Sources */,
 				1E0739CC2D244CB1003293D6 /* Persistence.swift in Sources */,
 				1E0739C52D244CB0003293D6 /* ContentView.swift in Sources */,
 				1E0739C32D244CB0003293D6 /* GTBFITAPPApp.swift in Sources */,
+				1E0739FA2D24D162003293D6 /* FoodLookupEntry.swift in Sources */,
+				1E0739F22D244ED0003293D6 /* MainView.swift in Sources */,
 				1E0739CF2D244CB1003293D6 /* GTBFITAPP.xcdatamodeld in Sources */,
+				1E0739F82D2470C0003293D6 /* LogExerciseView.swift in Sources */,
+				1E0739F42D2451D0003293D6 /* LogFoodView.swift in Sources */,
+				1E0739F62D245C22003293D6 /* FoodLookupView.swift in Sources */,
+				1E0739FC2D24ED27003293D6 /* ExerciseTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
